@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Thẻ Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Thẻ Link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://bloggytalky.com/wp-content/uploads/2017/07/create-a-free-logo-design-logo-designs-design-a-free-logo-design-a-free-logo-alltech-just-free-logo-design-1024x934.png" type="image/x-icon">
+
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <title>The Band</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="nav">
+        <a href="#home" class="nav-items">Home</a>
+        <a href="#about" class="nav-items">About</a>
+        <a href="#members" class="nav-items">Members</a>
+        <a href="#contact" class="nav-items">Contact</a>
+    </div>
+
+    <!-- Slides -->
+    <div id="home">
+        <img src="./image/img_ch.jpg" alt="Slides" class="slides" width="100%">
+        <img src="./image/img_la.jpg" alt="Slides" class="slides" width="100%">
+        <img src="./image/img_ny.jpg" alt="Slides" class="slides" width="100%">
+    </div>
+
+    <!-- About Us -->
+    <div id="about" class="padding-32">
+        <h2 class="center">The Band</h2>
+        <p class="center">This is our band website. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsam porro impedit adipisci, iste, nostrum consequuntur tempora, iusto tempore quia quibusdam laborum? Nostrum dignissimos optio animi! Animi excepturi numquam sint.</p>
+    </div>
+
+    <script>
+        w3.slideshow(".slides", 1500);
+    </script>
+
+    <!-- Members -->
+
+    <div id="members">
+        <h2 class="center">Band Members</h2>
+        <div class="row center">
+            
+            <div class="mem">
+                <img src="./image/img_bandmember.jpg" alt="Artist1" style="width: 60%;">
+            </div>
+
+            <div class="mem">
+                <img src="./image/img_bandmember.jpg" alt="Artist2" style="width: 60%;">
+            </div>
+
+            <div class="mem">
+                <img src="./image/img_bandmember.jpg" alt="Artist3" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact" class="center padding-32">
+        <h2 class="wide">CONTACT</h2>
+        Chicago, US<br>
+        Phone: +84 515151<br>
+        Email: mail@gmail.com<br>
+        <p class="opacity center"><i>Drop a note!</i></p>
+
+        <form target="_blank">
+            <input class="input-el" type="text" placeholder="Enter your name" required name="Name">
+            <input class="input-el" type="email" placeholder="Enter your email" required name="Name">
+            <input class="input-el" type="password" placeholder="Enter your password" required name="Name">
+            <button class="btn btn-black">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
